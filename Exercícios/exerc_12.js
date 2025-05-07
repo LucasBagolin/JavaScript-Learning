@@ -3,8 +3,8 @@
 const prompt = require('prompt-sync')();
 
 let i;
-let num = parseFloat(prompt('Digite um número: '))
+let num = parseFloat(prompt('Digite um número: '));
 
-for(i = 0; i < 10; i++){
-    
+for(i = 1; i <= 10; i++){
+    console.log(i,"*",num,"=",(num*i));
 }
